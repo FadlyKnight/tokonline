@@ -7,7 +7,7 @@
 - Run php artisan migrate
 - Run php artisan serve
 
-ADMIN : 
+ADMIN : <br>
 email : admin@admin.com <br>
 password : 12345678
 
