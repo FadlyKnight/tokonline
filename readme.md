@@ -8,7 +8,7 @@
 - Run php artisan serve
 
 ADMIN : 
-email : admin@admin.com
+email : admin@admin.com <br>
 password : 12345678
 
 ![alt text](https://github.com/FadlyKnight/tokonline/blob/master/public/ss-readme/laman-depan.JPG)
