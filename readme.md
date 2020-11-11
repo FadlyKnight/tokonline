@@ -1,4 +1,4 @@
-HOW TO USE
+## HOW TO USE
 - Composer Update
 - Tambahkan file SQL (tokonline_db.sql) ke database ,
 - "copy .env.example .env" if using command prompt Windows or "cp .env.example .env" if using terminal, Ubuntu.
@@ -6,6 +6,10 @@ HOW TO USE
 - Run php artisan key:generate
 - Run php artisan migrate
 - Run php artisan serve
+
+ADMIN : 
+email : admin@admin.com
+password : 12345678
 
 ![alt text](https://github.com/FadlyKnight/tokonline/blob/master/public/ss-readme/laman-depan.JPG)
 Tampilan Depan
