@@ -8,6 +8,7 @@
 - Run php artisan serve
 
 ADMIN : <br>
+url : http://localhost:8000/login <br>
 email : admin@admin.com <br>
 password : 12345678
 
