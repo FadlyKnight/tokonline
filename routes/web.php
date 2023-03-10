@@ -70,7 +70,6 @@ Route::group(['middleware' => ['auth','role:Admin'], 'prefix' => 'admin'], funct
     Route::resource('pemesanan', 'PemesananController');
     Route::resource('member', 'MemberController');
 
-    Route::get('/settings/slider', 'SettingController@slider')->name('slider.index');
     Route::get('/settings/testimoni', 'SettingController@testi')->name('testi.index');
     Route::get('/settings/testimoni/create', 'SettingController@testicreate')->name('create.testi');
     Route::post('/settings/testimoni', 'SettingController@testistore')->name('testi.store');
@@ -78,6 +77,7 @@ Route::group(['middleware' => ['auth','role:Admin'], 'prefix' => 'admin'], funct
     Route::post('/settings/testimoni/update/{id}', 'SettingController@testiupdate')->name('testi.update');
     Route::delete('/settings/testimoni/delete/{id}', 'SettingController@testidelete')->name('testi.destroy');
     
+    Route::get('/settings/slider', 'SettingController@slider')->name('slider.index');
     Route::get('/settings/slider/create', 'SettingController@slidercreate')->name('create.slider');
     Route::post('/settings/slider', 'SettingController@sliderstore')->name('slider.store');
     Route::get('/settings/slider/edit/{id}', 'SettingController@slideredit')->name('slider.edit');

@@ -121,7 +121,7 @@ class DaftarController extends Controller
         $role = Auth::user()->role;
         
         if ($role == 'Admin') {
-            return redirect('/produk');
+            return redirect()->route('dashboard.index');
         } elseif ( $role == 'Members' ) {
             return redirect('/')->with('sukses','Selamat Datang '.Auth::user()->name.'');
         }

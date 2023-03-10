@@ -4,9 +4,7 @@
         
 @section('content')
 
-<form action="/produk">
-    <button type="submit" class="btn btn-success">Kembali</button>
-</form>
+<a href="{{ route('produk.index') }}" class="btn btn-success">Kembali</a>
 <div class="container">
     {{-- untuk br --}}
     <h1></h1>

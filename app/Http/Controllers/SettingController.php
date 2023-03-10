@@ -85,7 +85,7 @@ class SettingController extends Controller
             'content'=>request('content'),
         ]);
         
-        return redirect('settings/slider')->with('pesan','slider ditambahkan');
+        return redirect()->route('slider.index')->with('pesan','slider ditambahkan');
     }
 
     public function testiupdate(Request $request, $id)
@@ -127,7 +127,7 @@ class SettingController extends Controller
             'content'=>request('content'),
         ]);
 
-         return redirect('settings/slider')->with('pesan','slider diupdate');
+         return redirect()->route('slider.index')->with('pesan','slider diupdate');
             // return redirect()->back()->with('pesan','testimoni diupdate');
     }
 

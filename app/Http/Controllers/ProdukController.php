@@ -128,6 +128,6 @@ class ProdukController extends Controller
         $produk = Produk::find($id);
         
         $produk->delete();
-        return redirect('/produk')->with('sukses', 'Produk Berhasil Dihapus');  
+        return redirect()->route('produk.index')->with('sukses', 'Produk Berhasil Dihapus');  
     }
 }
